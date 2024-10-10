@@ -3,8 +3,8 @@ package main
 
 import "C"
 
-//export sum
-func sum(a C.int, b C.int) C.int {
+//export mysum
+func mysum(a C.int, b C.int) C.int {
   return a + b
 }
 

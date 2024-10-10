@@ -26,7 +26,7 @@ final DynamicLibrary _dylib = () {
     return DynamicLibrary.open('$_libName.framework/$_libName');
   }
   if (Platform.isAndroid || Platform.isLinux) {
-    return DynamicLibrary.open('libsum.so');
+    return DynamicLibrary.open('libmysum.so');
   }
   if (Platform.isWindows) {
     return DynamicLibrary.open('$_libName.dll');
